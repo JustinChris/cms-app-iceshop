@@ -1,0 +1,47 @@
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    font-family: sans-serif;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.container:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn_redirect{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #fabe71;
+    background-color: #6b3e26;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+.ready{
+    background-color: greenyellow;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.unavailable {
+    background-color: gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.dataName{
+    margin-bottom: 10px;
+}
+
+.dataPrice{
+    margin-bottom: 5px;
+}

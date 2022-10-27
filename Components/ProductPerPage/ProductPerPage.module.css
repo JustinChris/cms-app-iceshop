@@ -1,0 +1,100 @@
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px 60px 80px 50px;
+}
+
+.aside{
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+
+.divider{
+    border: 1px solid #6b3e26;
+}
+
+.productName{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.ready{
+    background-color: greenyellow;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.unavailable {
+    background-color: gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.descriptionArea{
+    font-size: 1rem;
+    height: 300px;
+    width: 600px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.rating {
+    color: rgb(255, 136, 0);
+    font-size: 1.3em;
+    padding-left: 20px;
+}
+
+.ratingandstatus{
+    display: flex;
+}
+
+.formHandler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.input_qty{
+    width: 7rem; height: 3rem;	
+    font-size: 1.3em;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.btn_qty{
+    width: 3rem; height: 3rem;
+	background-color: #6b3e26;
+	font-size: 2rem;
+    color: #ffcb85;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.btn_qty:hover{
+    width: 3rem; height: 3rem;
+	background-color: #55311e;
+	font-size: 2rem;
+    color: #fcba64;
+    cursor: pointer;
+}
+
+.price {
+    color: #55311e;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}

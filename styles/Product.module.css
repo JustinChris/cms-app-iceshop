@@ -1,0 +1,16 @@
+.backgroundstuff {
+    background-color: white;
+    height: 100vh;
+}
+
+.layouting{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productListTitle{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+
+}

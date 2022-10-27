@@ -1,0 +1,49 @@
+.aboutUsTitle{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 15px;
+    color: white;
+    text-shadow: black 3px 2px;
+  }
+  
+  .background {
+    height: 92vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.89)), url('../../public/Background/Ice_cream_shop_at_Bonarka_City_Center\,_Kraków\,_Poland\,_2019.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .aboutUs{
+    display: flex;
+    padding: 25px 15px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-shadow: black 2px 2px;
+  }
+  
+  .aboutusContent {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    width: 750px;
+  }
+  
+  .browseProduct{
+    background-color: #6b3e26;
+    text-decoration: none;
+    color: #ffcb85;
+    padding: 15px 30px;
+    width: 750px;
+    border-radius: 30px;
+    text-shadow: #724c38 2px 2px;
+  }
+  
+  .browseProduct:hover{
+    background-color: #603721;
+    text-decoration: none;
+    color: #fabe71;
+  }

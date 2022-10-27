@@ -1,0 +1,11 @@
+.text{
+    background-color: rgb(241, 241, 241);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 20px 20px;
+    font-size: 20px;
+    margin-top: auto;
+    min-height: 20px;
+}
